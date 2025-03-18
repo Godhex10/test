@@ -1,0 +1,1735 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+
+<!-- Mirrored from intl.de-krystling.com/intl/Account.php by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 18 Mar 2025 19:21:16 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>|De-krystling </title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- favicon -->
+<link rel="apple-touch-icon" sizes="180x180" href="../../de-krystling.com/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../../de-krystling.com/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../../de-krystling.com/favicon/favicon-16x16.png">
+<link rel="manifest" href="https://de-krystling.com/favicon/site.webmanifest">
+<link rel="mask-icon" href="https://de-krystling.com/favicon/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+<!-- all css here -->
+
+<!-- bootstrap v3.3.6 css -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<!-- owl.carousel css -->
+<link rel="stylesheet" href="css/owl.carousel.css">
+<link rel="stylesheet" href="css/owl.transitions.css">
+<!-- Animate css -->
+<link rel="stylesheet" href="css/animate.css">
+<!-- Nice-select css -->
+<link rel="stylesheet" href="css/nice-select.css">
+<!-- meanmenu css -->
+<link rel="stylesheet" href="css/meanmenu.min.css">
+<!-- font-awesome css -->
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/themify-icons.css">
+<link rel="stylesheet" href="css/flaticon.css">
+<!-- magnific css -->
+<link rel="stylesheet" href="css/magnific.min.css">
+<!-- style css -->
+<link rel="stylesheet" href="style.css">
+<!-- responsive css -->
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="../my%20shower/package/dist/sweetalert2.min.html">
+<!-- modernizr css -->
+<script src="js/vendor/modernizr-2.8.3.min.js"></script>
+
+<style>
+
+/*loader*/
+div#preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99999;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    background: #ffffff url('img/logo/preloaders.gif') no-repeat center center;
+}
+
+iframe#tidio-chat-iframe {
+        box-shadow: -6px -2px 7px 3px black;
+    }
+	ul.list {
+		display: grid !important;
+	}
+    a#scrollUp {
+        left: 7px;
+    }
+	.calculator-inner {
+		padding: 30px;
+		background: #47527e42;
+		border-radius: 3px;
+	}
+
+	.topbar-left {
+		background: #16689b;
+		width: 80%;
+		position: relative;
+		z-index: 1;
+		color: white;
+	}
+
+	.topbar-left::before {
+		content: "";
+		position: absolute;
+		left: -110px;
+		top: 0;
+		background: #16689b;
+		width: 115px;
+		height: 48px;
+		z-index: -1;
+	}
+
+	.topbar-left::after {
+		content: "";
+		position: absolute;
+		right: -50px;
+		top: 0;
+		border-top: 48px solid transparent;
+		border-bottom: 0 solid transparent;
+		border-left: 50px solid #16689b;
+		z-index: 10;
+	}
+
+	.topbar-area {
+		background: #11193b00;
+	}
+
+    .header-area {
+        background: rgb(17 87 132 / 29%);
+        z-index: 99;
+    }
+
+	.money-send .calculator-inner .nice-select {
+		border: 1px solid #16689b;
+		background-color: #4d90fe;
+		border-radius: 0 2px 2px 0;
+		height: 52px;
+		padding: 0 35px 0 24px;
+		line-height: 54px;
+		font-size: 17px;
+		font-weight: 700;
+		float: right;
+	}
+
+	.money-send::before {
+		position: absolute;
+		right: -30px;
+		top: -30px;
+		width: 60%;
+		height: 115%;
+		content: "";
+		background: #16689b;
+		opacity: 0.5;
+		z-index: -1;
+		border-radius: 3px;
+	}
+
+	.header-area.stick {
+		left: 0;
+		position: fixed;
+		top: 0;
+		width: 100%;
+		z-index: 999999;
+		box-shadow: 0px 0px 3px #151b2c, -2px -2px 3px #151b2c;
+		background: #16689b;
+	}
+
+	.bg-color {
+		background: #16689b;
+	}
+
+	a.big-icon:hover {
+		color: #F3F3F3;
+	}
+
+	.col-md-4.col-sm-4.col-xs-12 {
+		background: #16689b;
+		box-shadow: 3px 0px 4px 5px #16689b6b;
+		margin: 0px 1px 0px 14px;
+		width: 30.333333%;
+	}
+
+	.big-icon::after {
+		position: absolute;
+		content: "";
+		left: -25px;
+		top: -15px;
+		background: #F4F7F8;
+		z-index: -1;
+		width: 70px;
+		height: 70px;
+		opacity: 0.5;
+		border-radius: 50%;
+		transition: 0.5s;
+	}
+
+	.big-icon {
+		font-size: 60px;
+		display: inline-block;
+		line-height: 64px;
+		color: #F8F8F8;
+		position: relative;
+		z-index: 1;
+	}
+
+	.all-services {
+		padding: 50px 30px;
+		overflow: hidden;
+		background: #111a43;
+		box-shadow: 0px 2px 7px 4px #196899;
+		border-radius: 4px;
+	}
+
+	.single-about a {
+		font-size: 30px;
+		color: #f38816;
+		float: left;
+		line-height: 70px;
+		width: 70px;
+		height: 70px;
+		border: 1px solid #f38816;
+		text-align: center;
+		margin-right: 20px;
+		border-radius: 50%;
+	}
+
+	.featture-content {
+		background: rgb(36 96 171);
+		padding: 20px 20px;
+		text-align: center;
+		position: absolute;
+		top: 70%;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		transition: 0.5s;
+	}
+
+	.bg-color2 {
+		background: #ffffff;
+	}
+
+	.support-services {
+		background: #16689b;
+		position: relative;
+		box-shadow: 0 5px 3px 5px rgb(8 81 127 / 57%);
+		z-index: 1;
+		padding: 40px;
+		overflow: hidden;
+		border-radius: 3px;
+		transition: 0.4s;
+		z-index: 1;
+		margin-bottom: 30px;
+		border: 1px solid #16689b;
+	}
+
+	.support-services:hover .support-images {
+		transition: 0.4s;
+		color: #16689b;
+		border: 1px solid #16689b;
+		background: #ffffff;
+		transform: translateY(-5px);
+	}
+
+	#scrollUp {
+		bottom: 40px;
+		font-size: 20px;
+		line-height: 48px;
+		right: 30px;
+		width: 44px;
+		background-color: #090f2b;
+		color: #fff;
+		text-align: center;
+		height: 44px;
+		border-radius: 3px;
+		-webkit-transition-duration: 500ms;
+		transition-duration: 500ms;
+	}
+	  /* ///////////////////// custom */
+
+        .circle-img {
+            position: absolute;
+            -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+            right: 0;
+            margin: 0;
+            z-index: -1;
+            max-width: 75%;
+            top: 204px;
+            left: -98px;
+        }
+
+        .circle-img img {
+            -webkit-animation-name: rotateMe;
+            animation-name: rotateMe;
+            -webkit-animation-duration: 35s;
+            animation-duration: 35s;
+            -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+            -webkit-animation-timing-function: linear;
+            animation-timing-function: linear
+        }
+
+        .circle-img-inverse {
+            position: absolute;
+            -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+            right: 0;
+            margin: 0;
+            top: 211px;
+            z-index: 2;
+            left: -107px;
+        }
+
+        .circle-img-inverse img {
+            -webkit-animation-name: re-rotateMe;
+            animation-name: re-rotateMe;
+            -webkit-animation-duration: 35s;
+            animation-duration: 35s;
+            -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+            -webkit-animation-timing-function: linear;
+            animation-timing-function: linear
+        }
+
+        @-webkit-keyframes rotateMe {
+            from {
+                -webkit-transform: rotate(0deg);
+                transform: rotate(0deg)
+            }
+
+            to {
+                -webkit-transform: rotate(360deg);
+                transform: rotate(360deg)
+            }
+        }
+
+        @keyframes rotateMe {
+            from {
+                -webkit-transform: rotate(0deg);
+                transform: rotate(0deg)
+            }
+
+            to {
+                -webkit-transform: rotate(360deg);
+                transform: rotate(360deg)
+            }
+        }
+
+        @-webkit-keyframes re-rotateMe {
+            from {
+                -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+                -moz-transform: rotate(0deg);
+                -ms-transform: rotate(0deg);
+                -o-transform: rotate(0deg);
+            }
+
+            to {
+                -webkit-transform: rotate(-360deg);
+                transform: rotate(-360deg);
+                -moz-transform: rotate(-360deg);
+                -ms-transform: rotate(-360deg);
+                -o-transform: rotate(-360deg);
+            }
+        }
+
+        @keyframes re-rotateMe {
+            from {
+                -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+                -moz-transform: rotate(0deg);
+                -ms-transform: rotate(0deg);
+                -o-transform: rotate(0deg);
+            }
+
+            to {
+                -webkit-transform: rotate(-360deg);
+                transform: rotate(-360deg);
+                -moz-transform: rotate(-360deg);
+                -ms-transform: rotate(-360deg);
+                -o-transform: rotate(-360deg);
+            }
+        }
+
+        .top-img {
+            position: absolute;
+            top: 225px;
+            left: 0;
+            width: 60%;
+            height: 60%;
+            z-index: 3;
+        }
+
+        img.ab-first-img:hover {
+            box-shadow: 12px 6px 12px black !important;
+            transform: translate(10px, -10px);
+        }
+
+        img.ab-first-img {
+            padding: 2% 0%;
+            margin: 5% 0%;
+            width: 100%;
+            transition: 1s;
+            box-shadow: 7px 6px 12px black;
+        }
+
+        img.sub:hover {
+            transform: translate(10px, -10px);
+        }
+
+        img.sub {
+            border: 9px solid #4d90fe;
+            box-shadow: 2px 3px 6px 2px black;
+            transition: 1s;
+
+        }
+
+        .overview-images {
+            margin-right: 30px;
+            border-radius: 4px;
+            border: 9px solid #4d90fe;
+            box-shadow: 4px 0px 6px 2px black;
+            transition: 1s;
+        }
+
+        p {
+            margin: 0 0 15px;
+            color: #e3e1e7;
+            text-shadow: 3px 1px 4px #2b2929;
+        }
+
+        .icon-text h5 {
+            text-shadow: 2px 1px 4px black;
+        }
+
+        .bg-color2 {
+            background: radial-gradient(#cecdcd, #337ab7);
+        }
+        .reviews-content .clients-text::after {
+            position: absolute;
+            left: 40px;
+            bottom: -28px;
+            content: "";
+            border-top: 28px solid #ffffff;
+            border-left: 3px solid transparent;
+            border-right: 20px solid transparent;
+        }
+        .clients-text {
+            padding: 40px 30px;
+            position: relative;
+            background-color: #ffffff;
+            box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+            border-radius: 4px;
+        }
+        .testi-text p {
+            margin-bottom: 0px;
+            color: #16689b;
+            text-shadow: 1px 1px 3px #464444;
+            font-weight: 800;
+        }
+        .testimonial-carousel.owl-carousel.owl-theme .owl-controls .owl-nav div.owl-prev, .testimonial-carousel.owl-carousel.owl-theme .owl-controls .owl-nav div.owl-next {
+                color: #16689b;
+                border: 1px solid #16689b;
+                
+            }
+            .single-icon {
+                background: radial-gradient(#56b9ff, #0f5bd8);
+            }
+            .contact-icon {
+                margin-bottom: 50px;
+                background: #4d90fe;
+                padding: 30px 30px 30px;
+                box-shadow: 6px 7px 9px 0px black;
+                position: relative;
+                z-index: 1;
+            }
+         .single-icon i {
+                font-size: 64px;
+                line-height: 77px;
+                margin-bottom: 20px;
+                color: #ffffff;
+            }
+            
+            .contact-form textarea#message {
+                background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+                border: 7px solid #1B2654;
+                border-radius: 0;
+                color: #1b2654;
+                height: 180px;
+                padding: 20px;
+                width: 100%;
+                background: #ffffff;
+            }
+            .contact-form input[type="text"], .contact-form input[type="email"], input[type="number"] {
+                background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+                border: 3px solid #1B2654;
+                border-radius: 0;
+                color: #1b2654;
+                height: 52px;
+                margin-bottom: 25px;
+                padding-left: 20px;
+                width: 100%;
+                background: #ffffff;
+            }
+            .single-about a {
+                font-size: 30px;
+                color: #fffefd;
+                float: left;
+                line-height: 70px;
+                width: 70px;
+                height: 70px;
+                border: 1px solid #ffffff;
+                text-align: center;
+                margin-right: 20px;
+                border-radius: 50%;
+            }
+</style>    <style>
+        /* 2 - General Styles
+---------------------------------------------------------------------- */
+        .xpt-container {
+            text-align: center;
+        }
+
+        .xpt-center {
+            text-align: center;
+        }
+
+
+        .xpt *,
+        .xpt *:after,
+        .xpt *:before {
+            -webkit-transition: all .25s linear;
+            -moz-transition: all .25s linear;
+            -ms-transition: all .25s linear;
+            -o-transition: all .25s linear;
+            transition: all .25s linear;
+        }
+
+        /* 2 - General Styles End
+---------------------------------------------------------------------- */
+
+
+
+        /* 3 - Hexagon Styles
+---------------------------------------------------------------------- */
+        .xpt-hex {
+            font-family: 'Lato', sans-serif;
+            position: relative;
+            z-index: 0;
+            color: #fff;
+            display: inline-block;
+            margin: 80px 5px 75px 5px;
+        }
+
+        .xpt-hex:after {
+            content: "";
+            position: absolute;
+            -webkit-transform: rotate(60deg);
+            -moz-transform: rotate(60deg);
+            -ms-transform: rotate(60deg);
+            -o-transform: rotate(60deg);
+            transform: rotate(60deg);
+        }
+
+        .xpt-hex:before {
+            content: "";
+            position: absolute;
+            -webkit-transform: rotate(-60deg);
+            -moz-transform: rotate(-60deg);
+            -ms-transform: rotate(-60deg);
+            -o-transform: rotate(-60deg);
+            transform: rotate(-60deg);
+        }
+
+        .xpt-hex,
+        .xpt-hex:after,
+        .xpt-hex:before {
+            width: 250px;
+            height: 143px;
+            background: #fff;
+            text-align: justify;
+        }
+
+
+        /* 3.1 - Inner Hexagon
+--------------------------------------*/
+        .xpt-ihex {
+            position: absolute;
+            z-index: 1;
+            left: 12px;
+            right: 12px;
+            top: 6px;
+            bottom: 6px;
+        }
+
+        .xpt-ihex:after {
+            content: "";
+            position: absolute;
+            -webkit-transform: rotate(60deg);
+            -moz-transform: rotate(60deg);
+            -ms-transform: rotate(60deg);
+            -o-transform: rotate(60deg);
+            transform: rotate(60deg);
+        }
+
+        .xpt-ihex:before {
+            content: "";
+            position: absolute;
+            -webkit-transform: rotate(-60deg);
+            -moz-transform: rotate(-60deg);
+            -ms-transform: rotate(-60deg);
+            -o-transform: rotate(-60deg);
+            transform: rotate(-60deg);
+        }
+
+        .xpt-ihex,
+        .xpt-ihex:after,
+        .xpt-ihex:before {
+            background: #adcf24;
+        }
+
+        .xpt-ihex:after,
+        .xpt-ihex:before {
+            width: 100%;
+            height: 100%;
+        }
+
+        .xpt-box-inr {
+            z-index: 2;
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top: 0;
+        }
+
+        /* 3.1 - Inner Hexagon End
+--------------------------------------*/
+
+
+
+        /* 3.2 - Price Component
+--------------------------------------*/
+        .xpt-box-1 {
+            font-weight: 300;
+        }
+
+        .xpt-title {
+            font-size: 24px !important;
+            font-family: 'Lato', sans-serif;
+            margin: 0;
+            padding: 0;
+            font-weight: 300 !important;
+            text-transform: uppercase;
+            margin-top: -15px !important;
+        }
+
+        .xpt-price-box {
+            font-weight: 300 !important;
+            display: inline-block;
+            position: relative;
+        }
+
+        .xpt-price {
+            font-size: 90px;
+            line-height: 60px;
+        }
+
+        .xpt-price span {
+            position: absolute;
+            left: 100%;
+            font-size: 40px;
+            top: -14px;
+        }
+
+        .xpt-currency {
+            position: absolute;
+            left: -20px;
+            top: -8px;
+            font-size: 40px;
+        }
+
+        .xpt-duration {
+            position: absolute;
+            font-size: 20px;
+            bottom: -30px;
+            left: 0;
+            right: 0;
+        }
+
+        .xpt-box-2 {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 50px;
+            opacity: 0;
+            padding: 0 45px;
+            margin-top: -10px;
+        }
+
+        .xpt-fleft {
+            text-align: left;
+        }
+
+        .xpt-fcenter {
+            text-align: center;
+        }
+
+        .xpt-fright {
+            text-align: right;
+        }
+
+        .xpt-body,
+        .xpt-body li {
+            list-style: none;
+            margin: 0 !important;
+            padding: 0;
+        }
+
+        .xpt-body li {
+            line-height: 19px;
+            font-size: 12px;
+            padding: 4px 0;
+            position: relative;
+        }
+
+
+        /* Tool-tip */
+        .xpt-body li span {
+            display: inline-block;
+            cursor: help;
+            border-bottom: dotted 2px #fff;
+        }
+
+        .xpt-body li span:before {
+            content: "";
+            position: absolute;
+            top: -15px;
+            width: 12px;
+            height: 12px;
+            left: 50%;
+            margin-left: -6px;
+        }
+
+        .xpt-body li span i {
+            margin: 0;
+            margin-bottom: 15px;
+            position: absolute;
+            bottom: 100%;
+            display: inline-block;
+            padding: 0 5px;
+            border-radius: 3px;
+            text-align: center;
+            background: #adcf24;
+            left: 0px;
+            right: 0px;
+        }
+
+        .xpt-body li span:before,
+        .xpt-body li span i {
+            width: 0;
+            height: 0;
+            display: inline-block;
+            overflow: hidden;
+            border: 0;
+        }
+
+        .xpt-body li span:hover:before,
+        .xpt-body li span:hover i {
+            opacity: 1;
+            width: auto;
+            height: auto;
+            overflow: visible;
+        }
+
+        .xpt-body li span:hover:before {
+            top: 0;
+            border-width: 6px;
+            border-style: solid;
+            border-color: #fff transparent transparent transparent;
+        }
+
+        .xpt-body li span:hover i {
+            margin-bottom: 0;
+            padding: 4px;
+            border: 2px solid #fff;
+        }
+
+
+        /* Button */
+
+        .xpt-btn {
+            font-size: 13px;
+            display: inline-block;
+            color: #fff !important;
+            padding-top: 25px;
+            text-decoration: none;
+            box-shadow: none !important;
+            text-transform: uppercase;
+        }
+
+        .xpt-body li i,
+        .xpt-btn i {
+            margin-right: 15px;
+        }
+
+
+        /* 3.2 - Price Component End
+--------------------------------------*/
+
+
+        /* 3.3 - Hover Effects
+--------------------------------------*/
+        .xpt-hex:hover .xpt-box-1 {
+            opacity: 0;
+        }
+
+        .xpt-hex:hover .xpt-box-2 {
+            opacity: 1;
+            top: 0;
+        }
+
+        .xpt-hex.xpt-cw:hover,
+        .xpt-hex.xpt-acw:hover .xpt-ihex {
+            -webkit-transform: rotate(60deg);
+            -moz-transform: rotate(60deg);
+            -ms-transform: rotate(60deg);
+            -o-transform: rotate(60deg);
+            transform: rotate(60deg);
+        }
+
+        .xpt-hex.xpt-cw:hover .xpt-ihex,
+        .xpt-hex.xpt-acw:hover {
+            -webkit-transform: rotate(-60deg);
+            -moz-transform: rotate(-60deg);
+            -ms-transform: rotate(-60deg);
+            -o-transform: rotate(-60deg);
+            transform: rotate(-60deg);
+        }
+
+        .xpt-hex.xpt-zoom:hover .xpt-ihex {
+            -webkit-transform: scale(1.105, 1.105);
+            -moz-transform: scale(1.105, 1.105);
+            -ms-transform: scale(1.105, 1.105);
+            -o-transform: scale(1.105, 1.105);
+            transform: scale(1.105, 1.105);
+        }
+
+
+        .xpt-hex.xpt-zoom-out .xpt-ihex {
+            -webkit-transform: scale(1.105, 1.105);
+            -moz-transform: scale(1.105, 1.105);
+            -ms-transform: scale(1.105, 1.105);
+            -o-transform: scale(1.105, 1.105);
+            transform: scale(1.105, 1.105);
+        }
+
+        .xpt-hex.xpt-zoom-out:hover .xpt-ihex {
+            -webkit-transform: scale(1, 1);
+            -moz-transform: scale(1, 1);
+            -ms-transform: scale(1, 1);
+            -o-transform: scale(1, 1);
+            transform: scale(1, 1);
+        }
+
+
+        .xpt-hex.xpt-inr-cw:hover .xpt-ihex .xpt-box-inr,
+        .xpt-hex.xpt-inr-acw:hover .xpt-ihex,
+        .xpt-hex.xpt-acw.xpt-zoom:hover .xpt-box-inr {
+            -webkit-transform: rotate(60deg);
+            -moz-transform: rotate(60deg);
+            -ms-transform: rotate(60deg);
+            -o-transform: rotate(60deg);
+            transform: rotate(60deg);
+        }
+
+        .xpt-hex.xpt-inr-cw:hover .xpt-ihex,
+        .xpt-hex.xpt-inr-acw:hover .xpt-ihex .xpt-box-inr,
+        .xpt-hex.xpt-cw.xpt-zoom:hover .xpt-box-inr {
+            -webkit-transform: rotate(-60deg);
+            -moz-transform: rotate(-60deg);
+            -ms-transform: rotate(-60deg);
+            -o-transform: rotate(-60deg);
+            transform: rotate(-60deg);
+        }
+
+        .xpt-hex.xpt-clr-cng:hover,
+        .xpt-hex.xpt-clr-cng:hover:after,
+        .xpt-hex.xpt-clr-cng:hover:before {
+            background: #adcf24;
+        }
+
+
+
+        .xpt-hex.xpt-flip {
+            -webkit-perspective: 1000;
+            -moz-perspective: 1000;
+            -ms-perspective: 1000;
+            perspective: 1000;
+        }
+
+        .xpt-hex.xpt-flip .xpt-box-2,
+        .xpt-hex.xpt-zoom-in-out .xpt-box-2 {
+            top: 0;
+        }
+
+        .xpt-hex.xpt-flip:hover .xpt-ihex,
+        .xpt-hex.xpt-flip:hover .xpt-box-inr {
+            -webkit-transform: rotateY(180deg);
+            -moz-transform: rotateY(180deg);
+            -ms-transform: rotateY(180deg);
+            -o-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+        }
+
+        .xpt-hex.xpt-flip.xpt-frl:hover .xpt-ihex,
+        .xpt-hex.xpt-flip.xpt-frl:hover .xpt-box-inr {
+            -webkit-transform: rotateY(-180deg);
+            -moz-transform: rotateY(-180deg);
+            -ms-transform: rotateY(-180deg);
+            -o-transform: rotateY(-180deg);
+            transform: rotateY(-180deg);
+        }
+
+        .xpt-hex.xpt-flip.xpt-ftb:hover .xpt-ihex,
+        .xpt-hex.xpt-flip.xpt-ftb:hover .xpt-box-inr {
+            -webkit-transform: rotateX(-180deg);
+            -moz-transform: rotateX(-180deg);
+            -ms-transform: rotateX(-180deg);
+            -o-transform: rotateX(-180deg);
+            transform: rotateX(-180deg);
+        }
+
+        .xpt-hex.xpt-flip.xpt-fbt:hover .xpt-ihex,
+        .xpt-hex.xpt-flip.xpt-fbt:hover .xpt-box-inr {
+            -webkit-transform: rotateX(180deg);
+            -moz-transform: rotateX(180deg);
+            -ms-transform: rotateX(180deg);
+            -o-transform: rotateX(180deg);
+            transform: rotateX(180deg);
+        }
+
+        .xpt-hex.xpt-zoom-in-out:hover .xpt-ihex {
+            -webkit-animation: xptzoom-in-out .5s;
+            animation: xptzoom-in-out .5s;
+        }
+
+        @keyframes xptzoom-in-out {
+            0% {
+                -webkit-transform: scale(1, 1);
+                -moz-transform: scale(1, 1);
+                -ms-transform: scale(1, 1);
+                -o-transform: scale(1, 1);
+                transform: scale(1, 1);
+            }
+
+            50% {
+                -webkit-transform: scale(.4, .4);
+                -moz-transform: scale(.4, .4);
+                -ms-transform: scale(.4, .4);
+                -o-transform: scale(.4, .4);
+                transform: scale(.4, .4);
+            }
+
+            100% {
+                -webkit-transform: scale(1, 1);
+                -moz-transform: scale(1, 1);
+                -ms-transform: scale(1, 1);
+                -o-transform: scale(1, 1);
+                transform: scale(1, 1);
+            }
+        }
+
+        /* 3.3 - Hover Effects End
+--------------------------------------*/
+        /* 3 - Hexagon Styles  End
+---------------------------------------------------------------------- */
+
+
+
+
+        /* 4 - Hexagon Color Variation
+---------------------------------------------------------------------- */
+        /* Front Hexagon BG Color */
+        .xpt_inner-lb,
+        .xpt_inner-lb:after,
+        .xpt_inner-lb:before,
+        .xpt_inner-lb li span i {
+            background: #0FB9DB;
+        }
+
+        .xpt_inner-b,
+        .xpt_inner-b:after,
+        .xpt_inner-b:before,
+        .xpt_inner-b li span i {
+            background: #3498db;
+        }
+
+        .xpt_inner-db,
+        .xpt_inner-db:after,
+        .xpt_inner-db:before,
+        .xpt_inner-db li span i {
+            background: #2980b9;
+        }
+
+        .xpt_inner-ld,
+        .xpt_inner-ld:after,
+        .xpt_inner-ld:before,
+        .xpt_inner-ld li span i {
+            background: #2c3e50;
+        }
+
+        .xpt_inner-lg,
+        .xpt_inner-lg:after,
+        .xpt_inner-lg:before,
+        .xpt_inner-lg li span i {
+            background: #1abc9c;
+        }
+
+        .xpt_inner-lg,
+        .xpt_inner-lg:after,
+        .xpt_inner-lg:before,
+        .xpt_inner-lg li span i {
+            background: #1abc9c;
+        }
+
+        .xpt_inner-g,
+        .xpt_inner-g:after,
+        .xpt_inner-g:before,
+        .xpt_inner-g li span i {
+            background: #16a085;
+        }
+
+        .xpt_inner-lr,
+        .xpt_inner-lr:after,
+        .xpt_inner-lr:before,
+        .xpt_inner-lr li span i {
+            background: #f15b5d;
+        }
+
+        .xpt_inner-r,
+        .xpt_inner-r:after,
+        .xpt_inner-r:before,
+        .xpt_inner-r li span i {
+            background: #dc2a0b;
+        }
+
+        .xpt_inner-o,
+        .xpt_inner-o:after,
+        .xpt_inner-o:before,
+        .xpt_inner-o li span i {
+            background: #f39c12;
+        }
+
+        .xpt_inner-lp,
+        .xpt_inner-lp:after,
+        .xpt_inner-lp:before,
+        .xpt_inner-lp li span i {
+            background: #d368e8;
+        }
+
+        .xpt_inner-lp,
+        .xpt_inner-lp:after,
+        .xpt_inner-lp:before,
+        .xpt_inner-lp li span i {
+            background: #d368e8;
+        }
+
+        .xpt_inner-p,
+        .xpt_inner-p:after,
+        .xpt_inner-p:before,
+        .xpt_inner-p li span i {
+            background: #de2e8c;
+        }
+
+        .xpt_inner-dp,
+        .xpt_inner-dp:after,
+        .xpt_inner-dp:before,
+        .xpt_inner-dp li span i {
+            background: #F305C7;
+        }
+
+        /* Front Hexagon BG Color End */
+
+
+
+
+
+        /* Back Hexagon BG Color */
+        .bhex_white,
+        .bhex_white:after,
+        .bhex_white:before {
+            background: #ffffff;
+        }
+
+        .bhex_GhostWhite,
+        .bhex_GhostWhite:after,
+        .bhex_GhostWhite:before {
+            background: #F8F8FF;
+        }
+
+        .bhex_WhiteSmoke,
+        .bhex_WhiteSmoke:after,
+        .bhex_WhiteSmoke:before {
+            background: #F5F5F5;
+        }
+
+        .bhex_Snow,
+        .bhex_Snow:after,
+        .bhex_Snow:before {
+            background: #FFFAFA;
+        }
+
+        .bhex_Silver,
+        .bhex_Silverl:after,
+        .bhex_Silver:before {
+            background: #C0C0C0;
+        }
+
+        .bhex_Gray,
+        .bhex_Gray:after,
+        .bhex_Gray:before {
+            background: #808080;
+        }
+
+        .bhex_LightGray,
+        .bhex_LightGray:after,
+        .bhex_LightGray"before {
+ background: #D3D3D3;
+        }
+
+        .bhex_SlateGray,
+        .bhex_SlateGray:after,
+        .bhex_SlateGray:before {
+            background: #708090
+        }
+
+        .bhex_LightSlateGray,
+        .bhex_LightSlateGray:after,
+        .bhex_LightSlateGray:before {
+            background: #778899
+        }
+
+        .bhex_DimGray,
+        .bhex_DimGray:after,
+        .bhex_DimGray:before {
+            background: #696969;
+        }
+
+        .bhex_DarkGray,
+        .bhex_DarkGray:after,
+        .bhex_DarkGray:before {
+            background: #A9A9A9;
+        }
+
+        /* Back Hexagon BG Color End */
+
+
+        /* 4 - Hexagon Color Variation End
+---------------------------------------------------------------------- */
+    </style>
+</head>
+
+<body>
+
+    <!--[if lt IE 8]>
+			<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+		<![endif]-->
+
+    <div id="preloader"></div>
+    <!-- Start Header Area -->
+    <header class="header-one">
+    <!-- Start header top bar -->
+    <div class="topbar-area">
+        <div class="container">
+            <div class="row">
+                <div class=" col-md-6 col-sm-6 col-xs-6">
+                    <style>
+                        .topbar-left {
+                            background: #16689b;
+                            width: 100%;
+                            position: relative;
+                            z-index: 1;
+                            color: white;
+                            padding-left: 7%;
+                            text-align: justify;
+                        }
+                    </style>
+                    <div class="topbar-left">
+                        <ul>
+                            <li><a style="font-size: 66%;" href="#"><i class="fa fa-envelope"></i>help@de-krystling.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-6">
+                    <div class="topbar-right">
+
+                        <li style="list-style:none">
+             
+                        </li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sticker" class="header-area hidden-xs">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-3">
+                            <div class="logo">
+                                <!-- Brand -->
+                                <a class="navbar-brand page-scroll" href="index-2.html">
+                                    <img src="img/logo/logos.png" alt="">
+                                </a>
+                            </div>
+                            <!-- logo end -->
+                        </div>
+                        <div class="col-md-9 col-sm-9">
+                            <div class="header-right-link">
+                                <!-- search option end -->
+                                <!--<a class="s-menu" href="login.php">Login</a>-->
+                            </div>
+                            <!-- mainmenu start -->
+                            <nav class="navbar navbar-default">
+                                <div class="collapse navbar-collapse" id="navbar-example">
+                                    <div class="main-menu">
+                                        <ul class="nav navbar-nav navbar-right">
+                                            <li><a class="pages" href="index-2.html">Home</a></li>
+                                              <li><a href="services.html">Services</a></li>
+                                            <li><a href="Account-from.html" style="background: coral;border-radius: 3%;color: black;">CREATE ACCOUNT</a></li>
+                                            <li><a class="pages" href="#">Meet us</a>
+                                                <ul class="sub-menu">
+                                                    
+                                                    <li><a href="about.html">About us</a></li>
+                                                    <li><a href="contact.html">contacts US</a></li>
+                                                    <!--<li><a href="team.php">team</a></li>-->
+                                                    <li><a href="faq.html">FAQ</a></li>
+                                                    <li><a href="review.html">Reviews</a></li>
+                                                    <li><a href="terms.html">Terms & Conditions</a></li>
+                                                     <li><a href="Policies.html">Policy</a></li>
+                                                </ul>
+                                            </li>
+                                            
+                                             <li><a href="login.html">Login</a></li>
+                                             
+                                            
+                                             <!--<li><a href="signup.php">Register</a></li>-->
+                                        </ul>
+                                    </div>
+                                </div>
+                            </nav>
+                            <!-- mainmenu end -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End header menu area -->
+    <!-- Start mobile menu area -->
+    <div class="mobile-menu-area hidden-lg hidden-md hidden-sm">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="mobile-menu">
+                        <div class="logo">
+                            <a href="index-2.html"><img src="img/logo/logos.png" alt="" /></a>
+                        </div>
+                        <nav id="dropdown">
+                           <ul class="nav navbar-nav navbar-right">
+                                <li><a class="pages" href="index-2.html">Home</a></li>
+                                  <li><a href="services.html">Services</a></li>
+                                <li><a href="Account-from.html">CREATE ACCOUNT</a></li>
+                                <li><a class="pages" href="#">Meet us</a>
+                                    <ul class="sub-menu">
+                                        
+                                        <li><a href="about.html">About us</a></li>
+                                        <li><a href="contact.html">contacts US</a></li>
+                                        <!--<li><a href="team.php">team</a></li>-->
+                                        <li><a href="faq.html">FAQ</a></li>
+                                        <li><a href="review.html">Reviews</a></li>
+                                        <li><a href="terms.html">Terms & Conditions</a></li>
+                                         <li><a href="Policies.html">Policy</a></li>
+                                    </ul>
+                                </li>
+                                
+                                 <li><a href="login.html">Login</a></li>
+                                 
+                                
+                                 <!--<li><a href="signup.php">Register</a></li>-->
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End mobile menu area -->
+</header>    <!-- End Header Area -->
+    <!-- Start breadcrumbs area -->
+    <div class="page-area">
+        <div class="breadcumb-overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="breadcrumb text-center">
+                        <div class="section-headline white-headline text-center">
+                            <h3>Accounts </h3>
+                        </div>
+                        <ul>
+                            <li class="home-bread">Home</li>
+                            <li>Our available Accounts </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End breadcrumbs area -->
+    <!-- start pricing table area -->
+    <div class="pricing-area bg-color area-padding-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="section-headline text-center">
+                        <h3>Our all services worldwide</h3>
+                        <p>Help agencies define their new business objectives and then create professional software.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="pricing-content">
+                    <!-- Pricing Table structure -->
+                    <div class="xpt">
+                        <div class="xpt-hex xpt-cw">
+                            <div class="xpt-ihex">
+                                <div class="xpt-box-inr">
+                                    <div class="xpt-box-1 xpt-center">
+                                        <h3 class="xpt-title"> Deposit account </h3>
+                                        <p class="xpt-price-box">
+                                            <span class="xpt-currency">$</span>
+                                            <span class="xpt-price">30<span>00</span></span>
+                                            <span class="xpt-duration">for opening</span>
+                                        </p>
+                                    </div>
+                                    <div class="xpt-box-2">
+                                        <ul class="xpt-body">
+                                            <li><i class="fa fa-clock-o"></i>24/7 Tech Support</li>
+                                            <li><i class="fa fa-cog"></i>Tax-free interest</li>
+                                            <li><i class="fa fa-star"></i>Substantial returns</li>
+                                            <li><i class="fa fa-heart"></i>Loan request </li>
+                                        </ul>
+                                        <!-- /.xpt-body -->
+                                        <div class="xpt-footer">
+                                            <a href="Account-from.html" class="xpt-btn"><i class="fa fa-long-arrow-right"></i>Get Account</a>
+                                        </div>
+                                        <!-- /.xpt-footer -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.xpt-hex -->
+
+
+                        <div class="xpt-hex">
+                            <div class="xpt-ihex  xpt_inner-lb">
+                                <div class="xpt-box-inr">
+                                    <div class="xpt-box-1 xpt-center">
+                                        <h3 class="xpt-title"> Transaction account</h3>
+                                        <p class="xpt-price-box">
+                                            <span class="xpt-currency">$</span>
+                                            <span class="xpt-price">30<span>00</span></span>
+                                            <span class="xpt-duration">for opening</span>
+                                        </p>
+                                    </div>
+                                    <div class="xpt-box-2">
+                                        <ul class="xpt-body">
+                                            <li><i class="fa fa-clock-o"></i>24/7 Tech Support</li>
+                                            <li><i class="fa fa-cog"></i>Overdraft</li>
+                                            <li><i class="fa fa-star"></i>Tax-free earnings</li>
+                                            <li><i class="fa fa-heart"></i>High-yield accounts</li>
+                                        </ul>
+                                        <!-- /.xpt-body -->
+                                        <div class="xpt-footer">
+                                            <a href="Account-from.html" class="xpt-btn"><i class="fa fa-long-arrow-right"></i>Get Account</a>
+                                        </div>
+                                        <!-- /.xpt-footer -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.xpt-hex -->
+
+                        <div class="xpt-hex xpt-zoom">
+                            <div class="xpt-ihex xpt_inner-db">
+                                <div class="xpt-box-inr">
+                                    <div class="xpt-box-1 xpt-center">
+                                        <h3 class="xpt-title"> Savings account </h3>
+                                        <p class="xpt-price-box">
+                                            <span class="xpt-currency">$</span>
+                                            <span class="xpt-price">30<span>00</span></span>
+                                            <span class="xpt-duration">for opening</span>
+                                        </p>
+                                    </div>
+                                    <div class="xpt-box-2">
+                                        <ul class="xpt-body">
+                                            <li><i class="fa fa-clock-o"></i>24/7 Tech Support</li>
+                                            <li><i class="fa fa-cog"></i>High yield</li>
+                                            <li><i class="fa fa-star"></i>Over draft</li>
+                                            <li><i class="fa fa-heart"></i>Loan Request </li>
+                                        </ul>
+                                        <!-- /.xpt-body -->
+                                        <div class="xpt-footer">
+                                            <a href="Account-from.html" class="xpt-btn"><i class="fa fa-long-arrow-right"></i>Get Account</a>
+                                        </div>
+                                        <!-- /.xpt-footer -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.xpt-hex -->
+
+
+                        <div class="xpt-hex xpt-zoom-out">
+                            <div class="xpt-ihex xpt_inner-ld">
+                                <div class="xpt-box-inr">
+                                    <div class="xpt-box-1 xpt-center">
+                                        <h3 class="xpt-title"> Time Deposit </h3>
+                                        <p class="xpt-price-box">
+                                            <span class="xpt-currency">$</span>
+                                            <span class="xpt-price">30<span>00</span></span>
+                                            <span class="xpt-duration">for opening</span>
+                                        </p>
+                                    </div>
+                                    <div class="xpt-box-2">
+                                        <ul class="xpt-body">
+                                            <li><i class="fa fa-clock-o"></i>24/7 Tech Support</li>
+                                            <li><i class="fa fa-cog"></i>Tax free Interest</li>
+                                            <li><i class="fa fa-star"></i>High yielding</li>
+                                            <li><i class="fa fa-heart"></i>Over Draft</li>
+                                        </ul>
+                                        <!-- /.xpt-body -->
+                                        <div class="xpt-footer">
+                                            <a href="Account-from.html" class="xpt-btn"><i class="fa fa-long-arrow-right"></i>Get Account</a>
+                                        </div>
+                                        <!-- /.xpt-footer -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.xpt-hex -->
+
+
+                        <div class="xpt-hex xpt-inr-cw">
+                            <div class="xpt-ihex xpt_inner-lg">
+                                <div class="xpt-box-inr">
+                                    <div class="xpt-box-1 xpt-center">
+                                        <h3 class="xpt-title"> Tax-free savings account </h3>
+                                        <p class="xpt-price-box">
+                                            <span class="xpt-currency">$</span>
+                                            <span class="xpt-price">30<span>00</span></span>
+                                            <span class="xpt-duration">for opening</span>
+                                        </p>
+                                    </div>
+                                    <div class="xpt-box-2">
+                                        <ul class="xpt-body">
+                                            <li><i class="fa fa-clock-o"></i>24/7 Tech Support</li>
+                                            <li><i class="fa fa-cog"></i>Tax Free interest</li>
+                                            <li><i class="fa fa-star"></i>Fast yielding</li>
+                                            <li><i class="fa fa-heart"></i>Loan Request </li>
+                                        </ul>
+                                        <!-- /.xpt-body -->
+                                        <div class="xpt-footer">
+                                            <a href="Account-from.html" class="xpt-btn"><i class="fa fa-long-arrow-right"></i>Get Account</a>
+                                        </div>
+                                        <!-- /.xpt-footer -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.xpt-hex -->
+
+                        <div class="xpt-hex xpt-inr-acw">
+                            <div class="xpt-ihex xpt_inner-lg">
+                                <div class="xpt-box-inr">
+                                    <div class="xpt-box-1 xpt-center">
+                                        <h3 class="xpt-title"> Fixed Deposit Account </h3>
+                                        <p class="xpt-price-box">
+                                            <span class="xpt-currency">$</span>
+                                            <span class="xpt-price">30<span>00</span></span>
+                                            <span class="xpt-duration">for opening </span>
+                                        </p>
+                                    </div>
+                                    <div class="xpt-box-2">
+                                        <ul class="xpt-body">
+                                            <li><i class="fa fa-clock-o"></i>24/7 Tech Support</li>
+                                            <li><i class="fa fa-cog"></i>Tax free earnings</li>
+                                            <li><i class="fa fa-star"></i>Substantial Returns</li>
+                                            <li><i class="fa fa-heart"></i>Over draft</li>
+                                        </ul>
+                                        <!-- /.xpt-body -->
+                                        <div class="xpt-footer">
+                                            <a href="Account-from.html" class="xpt-btn"><i class="fa fa-long-arrow-right"></i>Get Account</a>
+                                        </div>
+                                        <!-- /.xpt-footer -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.xpt-hex -->
+
+
+                        <div class="xpt-hex xpt-inr-acw xpt-zoom-out">
+                            <div class="xpt-ihex xpt_inner-g">
+                                <div class="xpt-box-inr">
+                                    <div class="xpt-box-1 xpt-center">
+                                        <h3 class="xpt-title">Non Resident Account </h3>
+                                        <p class="xpt-price-box">
+                                            <span class="xpt-currency">$</span>
+                                            <span class="xpt-price">30<span>00</span></span>
+                                            <span class="xpt-duration">for opening</span>
+                                        </p>
+                                    </div>
+                                    <div class="xpt-box-2">
+                                        <ul class="xpt-body">
+                                            <li><i class="fa fa-clock-o"></i>24/7 Tech Support</li>
+                                            <li><i class="fa fa-cog"></i>Tax Free</li>
+                                            <li><i class="fa fa-star"></i>Loan request</li>
+                                            <li><i class="fa fa-heart"></i>Over draft </li>
+                                        </ul>
+                                        <!-- /.xpt-body -->
+                                        <div class="xpt-footer">
+                                            <a href="Account-from.html" class="xpt-btn"><i class="fa fa-long-arrow-right"></i>Get Account</a>
+                                        </div>
+                                        <!-- /.xpt-footer -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.xpt-hex -->
+
+                        <div class="xpt-hex xpt-inr-cw xpt-zoom-out">
+                            <div class="xpt-ihex xpt_inner-lr">
+                                <div class="xpt-box-inr">
+                                    <div class="xpt-box-1 xpt-center">
+                                        <h3 class="xpt-title"> Joint account </h3>
+                                        <p class="xpt-price-box">
+                                            <span class="xpt-currency">$</span>
+                                            <span class="xpt-price">30<span>00</span></span>
+                                            <span class="xpt-duration">for opening</span>
+                                        </p>
+                                    </div>
+                                    <div class="xpt-box-2">
+                                        <ul class="xpt-body">
+                                            <li><i class="fa fa-clock-o"></i>24/7 Tech Support</li>
+                                            <li><i class="fa fa-cog"></i>Fast Earnings</li>
+                                            <li><i class="fa fa-star"></i>Exchange rate inflation</li>
+                                            <li><i class="fa fa-heart"></i> </li>
+                                        </ul>
+                                        <!-- /.xpt-body -->
+                                        <div class="xpt-footer">
+                                            <a href="Account-from.html" class="xpt-btn"><i class="fa fa-long-arrow-right"></i>Get Account</a>
+                                        </div>
+                                        <!-- /.xpt-footer -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.xpt-hex -->
+
+
+                    </div>
+                    <!-- /.xpt -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End pricing table area -->
+    <!-- Start footer area -->
+    <!-- Start footer area -->
+    <footer class="footer-1">
+        
+<div class="footer-area">
+                <div class="container">
+                    <div class="row">
+                       <!-- Start column-->
+                       <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="footer-content logo-footer">
+                                <div class="footer-head">
+                                    <div class="footer-logo">
+                                    	<a class="footer-black-logo" href="#"><img src="img/logo/logos.png" alt=""></a>
+                                    </div>
+                                    <p>
+                                    📱 ☎ Contact us for any issue at all. We await your requests.. 
+                                    </p>
+                                    <div class="subs-feilds">
+                                        <div class="suscribe-input">
+                                            <input type="email" class="email form-control width-80" id="sus_email" placeholder="Type Email">
+                                            <button type="submit" id="sus_submit" class="add-btn">Subscribe</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End column-->
+                        <!-- Start column-->
+                        <div class="col-md-2 col-sm-3 col-xs-12">
+                            <div class="footer-content">
+                                <div class="footer-head">
+                                    <h4>Products</h4>
+                                    <ul class="footer-list">
+                                        <li><a href="index-2.html">Home</a></li>
+                                        <li><a href="services.html">Service</a></li>
+                                        <li><a href="Account-from.html">Register here</a></li>
+                                        <li><a href="about.html">About</a></li>
+                                        <li><a href="contact.html">Contact US </a></li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End column-->
+                        <!-- Start column-->
+                        <div class="col-md-2 col-sm-3 col-xs-12">
+                            <div class="footer-content">
+                                <div class="footer-head">
+                                    <h4>Payments</h4>
+                                    <ul class="footer-list">
+                                        <li><a href="faq.html">FAQ</a></li>
+                                        <li><a href="review.html">Reviews</a></li>
+                                        <li><a href="terms.html">Terms & Conditions</a></li>
+                                         <li><a href="Policies.html">Policy</a></li>
+                                         <li><a href="login.html">Login </a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End column-->
+                        <!-- Start column-->
+                        <div class="col-md-2 hidden-sm col-xs-12">
+                            <div class="footer-content">
+                                
+                            </div>
+                        </div>
+                        <!-- End column-->
+                        <!-- Start column-->
+                        <div class="col-md-2 hidden-sm col-xs-12">
+                             <div class="footer-content last-content">
+                               
+                            </div>
+                        </div>
+                        <!-- End column-->
+                    </div>
+                </div>
+            </div>
+            <!-- Start footer bottom area -->
+            <div class="footer-area-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="copyright">
+                                <p>
+                                    Copyright © 2023
+                                    <a href="#">Bultifore</a> All Rights Reserved
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End footer bottom area -->    </footer>
+
+    <!-- footer scripts for this fil--->
+    <!-- End footer area -->
+
+
+<!-- all js here -->
+
+<!-- jquery latest version -->
+<script src="js/vendor/jquery-1.12.4.min.js"></script>
+<!-- bootstrap js -->
+<script src="js/bootstrap.min.js"></script>
+<!-- owl.carousel js -->
+<script src="js/owl.carousel.min.js"></script>
+<!-- stellar js -->
+<script src="js/jquery.stellar.min.js"></script>
+<!-- magnific js -->
+<script src="js/magnific.min.js"></script>
+
+<!-- wow js -->
+<script src="js/wow.min.js"></script>
+<!-- meanmenu js -->
+<script src="js/jquery.meanmenu.js"></script>
+<!-- Form validator js -->
+<script src="js/form-validator.min.js"></script>
+<!-- plugins js -->
+<script src="js/plugins.js"></script>
+<!-- main js -->
+<script src="js/main.js"></script>
+<script  src="my%20shower/package/dist/sweetalert2.all.min.js"></script>
+<script id="chatway" async="true" src="../../cdn.chatway.app/widget6a69.js?id=azW5PPskk7Go"></script>
+<script src="../nice-select/dist/js/nice-select2.js"></script>
+<script>
+   document.addEventListener("DOMContentLoaded", function(e){
+     var options = {searchable: true, placeholder:"Select Language"};
+     NiceSelect.bind(document.getElementById("seachable-select"), options); 
+   });
+ </script>
+<script type="text/javascript">
+    function googleTranslateElementInit2() {
+        new google.translate.TranslateElement({
+            pageLanguage: 'en',
+            autoDisplay: false
+        }, 'google_translate_element2');
+    }
+</script>
+<script type="text/javascript" src="../../translate.google.com/translate_a/element7876.js?cb=googleTranslateElementInit2"></script>
+<div class="gtranslate_wrapper"></div>
+<script>window.gtranslateSettings = {"default_language":"en","languages":["en","fr","de","it","es","ko","ja"],"wrapper_selector":".gtranslate_wrapper","float_switcher_open_direction":"bottom"}</script>
+<script src="../../cdn.gtranslate.net/widgets/latest/float.js" defer></script>
+
+<script type="text/javascript">
+    /* <![CDATA[ */
+    eval(function(p, a, c, k, e, r) {
+        e = function(c) {
+            return (c < a ? '' : e(parseInt(c / a))) + ((c = c % a) > 35 ? String.fromCharCode(c + 29) : c.toString(36))
+        };
+        if (!''.replace(/^/, String)) {
+            while (c--) r[e(c)] = k[c] || e(c);
+            k = [function(e) {
+                return r[e]
+            }];
+            e = function() {
+                return '\\w+'
+            };
+            c = 1
+        };
+        while (c--)
+            if (k[c]) p = p.replace(new RegExp('\\b' + e(c) + '\\b', 'g'), k[c]);
+        return p
+    }('6 7(a,b){n{4(2.9){3 c=2.9("o");c.p(b,f,f);a.q(c)}g{3 c=2.r();a.s(\'t\'+b,c)}}u(e){}}6 h(a){4(a.8)a=a.8;4(a==\'\')v;3 b=a.w(\'|\')[1];3 c;3 d=2.x(\'y\');z(3 i=0;i<d.5;i++)4(d[i].A==\'B-C-D\')c=d[i];4(2.j(\'k\')==E||2.j(\'k\').l.5==0||c.5==0||c.l.5==0){F(6(){h(a)},G)}g{c.8=b;7(c,\'m\');7(c,\'m\')}}', 43, 43, '||document|var|if|length|function|GTranslateFireEvent|value|createEvent||||||true|else|doGTranslate||getElementById|google_translate_element2|innerHTML|change|try|HTMLEvents|initEvent|dispatchEvent|createEventObject|fireEvent|on|catch|return|split|getElementsByTagName|select|for|className|goog|te|combo|null|setTimeout|500'.split('|'), 0, {}))
+    /* ]]> */
+</script></body>
+
+
+<!-- Mirrored from intl.de-krystling.com/intl/Account.php by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 18 Mar 2025 19:21:16 GMT -->
+</html>
