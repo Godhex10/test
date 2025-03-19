@@ -380,6 +380,8 @@
 .logo a,
 .header-two .logo a{
     padding: 0px;
+    font-size: 20px;
+    color: #fff;
 }
 .intro-bg{
 	display: none;
